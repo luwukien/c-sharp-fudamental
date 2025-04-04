@@ -1,0 +1,43 @@
+# Th? m?c build
+[Bb]in/
+[Oo]bj/
+
+# File log và c? s? d? li?u c?a Visual Studio
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# File t?m c?a Visual Studio
+*.vs/
+.vs/
+_ReSharper.*/
+*.resharper
+*.cache
+
+# File c?u hình c?c b?
+appsettings.Development.json
+appsettings.Local.json
+
+# Th? m?c package (NuGet)
+[Nn]uget/
+*.nupkg
+packages/
+
+# File c?a ReSharper và Rider
+_ReSharper.*
+*.sln.iml
+
+# File c?a Azure Functions
+func-debug/
+
+# File c?a Docker
+docker-compose.override.yml
+
+# File c?a dotnet CLI
+/.dotnet/
+/.tools/
+
+# File c?a Rider IDE
+.idea/
