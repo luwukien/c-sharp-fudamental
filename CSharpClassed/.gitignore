@@ -1,0 +1,43 @@
+﻿# Thư mục build
+[Bb]in/
+[Oo]bj/
+
+# File log và cơ sở dữ liệu của Visual Studio
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# File tạm của Visual Studio
+*.vs/
+.vs/
+_ReSharper.*/
+*.resharper
+*.cache
+
+# File cấu hình cục bộ
+appsettings.Development.json
+appsettings.Local.json
+
+# Thư mục package (NuGet)
+[Nn]uget/
+*.nupkg
+packages/
+
+# File của ReSharper và Rider
+_ReSharper.*
+*.sln.iml
+
+# File của Azure Functions
+func-debug/
+
+# File của Docker
+docker-compose.override.yml
+
+# File của dotnet CLI
+/.dotnet/
+/.tools/
+
+# File của Rider IDE
+.idea/
