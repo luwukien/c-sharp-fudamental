@@ -2,27 +2,13 @@
 
 namespace MyApplication
 {
-    class Car
+    class Program
     {
-        public string model;
-        public string color;
-        public int year;
-        // Constructor
-        public Car(string model, string color, int year)
-        {
-            this.model = model;
-            this.color = color;
-            this.year = year;
-        }
-
         static void Main(string[] args)
         {
-            Car myObj = new Car("Mustang", "red", 2025);
-            Console.WriteLine("My car:" + myObj.model + "\nThe color of my car:" + myObj.color + "\nYear:" + myObj.year);
+            Person myObj = new Person();
+            myObj.Name = "Liam";
+            Console.WriteLine(myObj.Name);
         }
-
     }
-
-
-
 }
